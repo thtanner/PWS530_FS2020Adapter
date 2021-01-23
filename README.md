@@ -4,7 +4,7 @@ Allows the PropWashSim PWS530 to be used with Flight Simulator 2020 until offici
 ## Installation
 - [Download](https://github.com/thtanner/PWS530_FS2020Adapter/releases/) the latest PWS530_FS2020Adapter release and extract the into a directory of your choice
 - [Download](http://fsuipc.simflight.com/beta/Install_FSUIPC7.zip) and Install FSUIPC7
-- [Download](https://www.mobiflight.com/en/download.html) MobiFlight
+- [Download](https://www.mobiflight.com/en/download.html) and Install MobiFlight
   1. Launch MobiFlight
   2. Go to Settings and enable the beta
   3. Go to Help, check for updataes
