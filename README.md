@@ -18,7 +18,7 @@ Allows the PropWashSim PWS530 to be used with Flight Simulator 2020 until offici
 - **If you are using FSXPropWash** to control other PWS hardware, *do not Auto Detect your PWS530 using FSXPropWash*. If you have done so and the PWS530 is showing in FSXPropWash, select the PWS530 and press Delete Port, then disconnect/reconnect the PWS530's USB cable.
 - **Launch Flight Simulator 2020** and enjoy your PWS530 on aircraft equipped with the GNS530
 
-## Known Limiations
+## Known Limitations
 - This is meant to only work with PropWash Simulation's PWS530 and Microsoft Flight Simulator 2020 using MobiFlight's Event Module and FSUIPC7, it will not work for any other usage scenerio
 
 ## Versions
