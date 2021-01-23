@@ -90,7 +90,7 @@ Partial Public Class Form1
         UnregisterHotKey(MyBase.Handle, 104)
         UnregisterHotKey(MyBase.Handle, 105)
         UnregisterHotKey(MyBase.Handle, 106)
-        'UnregisterHotKey(MyBase.Handle, 107) 'CDI Not Implemented Yet
+        UnregisterHotKey(MyBase.Handle, 107)
         UnregisterHotKey(MyBase.Handle, 108)
         UnregisterHotKey(MyBase.Handle, 109)
         UnregisterHotKey(MyBase.Handle, 110)
@@ -117,7 +117,7 @@ Partial Public Class Form1
         RegisterHotKey(MyBase.Handle, 104, K_SHIFT Or K_CONTROL, Keys.F6) 'LeftSmallKnob Left
         RegisterHotKey(MyBase.Handle, 105, K_SHIFT Or K_CONTROL, Keys.F2) 'LeftSmallKnob Right
         RegisterHotKey(MyBase.Handle, 106, K_SHIFT Or K_CONTROL, Keys.H) 'LeftSmallKnob Push
-        'RegisterHotKey(MyBase.Handle, 107, K_SHIFT Or K_CONTROL, Keys.C) 'CDI Not Implemented Yet
+        RegisterHotKey(MyBase.Handle, 107, K_SHIFT Or K_CONTROL, Keys.C) 'CDI
         RegisterHotKey(MyBase.Handle, 108, K_SHIFT Or K_CONTROL, Keys.E) 'OBS
         RegisterHotKey(MyBase.Handle, 109, K_SHIFT Or K_CONTROL, Keys.F) 'MSG
         RegisterHotKey(MyBase.Handle, 110, K_SHIFT Or K_CONTROL, Keys.G) 'FPL
@@ -160,6 +160,9 @@ Partial Public Class Form1
                 Case "106"
                     Me.KeyLabel.Text = "Button Pressed: LeftSmallKnob Push"
                     FSUIPCConnection.SendControlToFS(32792, 0)
+                Case "107"
+                    Me.KeyLabel.Text = "Button Pressed: CDI"
+                    FSUIPCConnection.SendControlToFS(66375, 0)
                 Case "108"
                     Me.KeyLabel.Text = "Button Pressed: OBS"
                     FSUIPCConnection.SendControlToFS(32776, 0)
