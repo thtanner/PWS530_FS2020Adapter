@@ -31,4 +31,5 @@ Allows the PropWashSim PWS530 to be used with Flight Simulator 2020 until offici
 ## Credits
 - Based on one of [FSUIPC Client DLL](http://fsuipc.paulhenty.com/)'s sample projects
 - Sample code for RegisterHotKey was found [here](https://social.msdn.microsoft.com/Forums/vstudio/en-US/c1a24688-d844-4adc-9d85-416a7158c6ba/faq-how-do-i-register-a-hotkey-in-vbnet?forum=vbgeneral).
+- Huge thanks to [MobiFlight](https://www.mobiflight.com/) for their event module, as this could not work without it
 - Thanks to [PropWash Simulation](https://www.propwashsim.com/) for their outstanding flight simulator hardware at a great price
