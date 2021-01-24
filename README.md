@@ -5,12 +5,13 @@ Allows the PropWashSim PWS530 to be used with Flight Simulator 2020 until offici
 - [Download](https://github.com/thtanner/PWS530_FS2020Adapter/releases/) the latest PWS530_FS2020Adapter release and extract the into a directory of your choice
 - [Download](http://fsuipc.simflight.com/beta/Install_FSUIPC7.zip) and Install FSUIPC7
 - [Download](https://www.mobiflight.com/en/download.html) and Install MobiFlight
-  1. Launch MobiFlight
-  2. Go to Settings and enable the beta
-  3. Go to Help, check for updataes
-  4. After the update, go to the MobiFlight folder (where MFConnector.exe is located)
-  5. Go inside the MSFS2020-module folder and copy the mobiflight-event-module folder to your Flight Sumulator 2020's Community packages folder
-  6. Close MobiFlight as it is no longer needed
+  1. Run MobiFlight
+  2. In the Extras -> Settings menu, at the bottom, check "I would like to receive beta version updates"
+  3. Click "Help -> Check for update"
+  4. After update, navigate to the install location for MobiFlight on your machine
+  5. There should now be a "MSFS2020-module" folder, open that folder
+  6. Copy the "mobiflight-event-module" folder to your MSFS community folder
+  7. MobiFlight is no longer needed at this stage; you may choose to uninstall it if you wish.
 - The [pms-gns530 Mod](https://github.com/pimarc/pms50-gns530) is highly suggeted, but not required, as it grealy improves the GNS530 functionality in Flight Simulator 2020
 
 ## Usage
